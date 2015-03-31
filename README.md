@@ -21,7 +21,7 @@ Either `visible`, `hidden`, `blur`, or `init` (rarely).
 
 ## Installation
 
-* Run `ember addons:install visible`
+* Run `ember install:addon ember-cli-visible`
 
 ## Running
 
