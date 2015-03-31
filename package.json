@@ -1,7 +1,7 @@
 {
   "name": "visible",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "An addon to help with visibility states of your app, like if your tab and window are visible or not.",
   "directories": {
     "doc": "doc",
     "test": "tests"
