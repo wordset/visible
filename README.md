@@ -4,7 +4,7 @@ This is an ember-cli addon that helps you deal with whether or not your
 application is currently visible to the user or not. For instance, whether
 the user is on another tab or has blurred the browser entirely.
 
-Just install in your app, and then controllers and routes can access the two main ways of interacting with this plugin: `this.visible.now` (boolean) and `this.visilble.state` (string repsonse). E.g.
+Just install in your app, and then controllers and routes can access the two main ways of interacting with this plugin: `this.visible.now` (boolean) and `this.visible.state` (string repsonse). E.g.
 
 ```
   import Ember from 'ember';
