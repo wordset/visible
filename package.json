@@ -1,6 +1,6 @@
 {
-  "name": "visible",
-  "version": "0.0.0",
+  "name": "ember-cli-visible",
+  "version": "1.0.1",
   "description": "An addon to help with visibility states of your app, like if your tab and window are visible or not.",
   "directories": {
     "doc": "doc",
@@ -11,11 +11,16 @@
     "build": "ember build",
     "test": "ember test"
   },
+  "homepage": "http://github.com/wordset/visible.git",
   "repository": "",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/wordset/visible.git"
+  },
+  "author": "Hampton Catlin (@hcatlin)",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
