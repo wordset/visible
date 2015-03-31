@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-visible",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An addon to help with visibility states of your app, like if your tab and window are visible or not.",
   "directories": {
     "doc": "doc",
