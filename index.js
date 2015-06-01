@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'visible'
+  name: 'ember-cli-visible'
 };
