@@ -1,10 +1,10 @@
 import Ember from 'ember';
-import { initialize } from '../../../initializers/visible-initializer';
+import { initialize } from '../../../initializers/visible';
 import { module, test } from 'qunit';
 
 var container, application;
 
-module('VisibleInitializerInitializer', {
+module('Unit | Initializer | visible', {
   beforeEach: function() {
     Ember.run(function() {
       application = Ember.Application.create();
@@ -14,7 +14,8 @@ module('VisibleInitializerInitializer', {
   }
 });
 
-test('', function(assert) {
+// Replace this with your real tests.
+test('it works', function(assert) {
   initialize(container, application);
 
   // you would normally confirm the results of the initializer here
