@@ -48,5 +48,9 @@ export default Ember.Service.extend({
     };
     window.onfocus = boundCallback;
   },
+  willDestroy: function() {
+    window.onblur = () => {};
+    window.onfocus = () => {};
+  }
 
 });
