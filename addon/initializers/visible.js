@@ -1,4 +1,4 @@
-export function initialize(container, application) {
+export function initialize(application) {
   application.inject('controller', 'visible', 'service:visible');
   application.inject('route', 'visible', 'service:visible');
 }

@@ -48,5 +48,10 @@ export default Ember.Service.extend({
     };
     window.onfocus = boundCallback;
   },
+  willDestroy: function() {
+    document.removeEventListener(this.get("visibilityChangeEvent"), window.onfocus);
+    window.onblur = () => {};
+    window.onfocus = () => {};
+  }
 
 });
